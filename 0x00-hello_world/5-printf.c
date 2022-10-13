@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-/*
- *
- * main - entry point
+/**
+ * ain - entry point
  *
  * @void: no arguments
  *
