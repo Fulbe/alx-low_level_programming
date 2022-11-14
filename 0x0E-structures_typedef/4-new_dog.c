@@ -66,7 +66,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(snoopie);
 		return (NULL);
 	}
-        (*snoopie).name = new_name;
+	(*snoopie).name = new_name;
 
 	(*snoopie).age = age;
 
@@ -80,4 +80,4 @@ dog_t *new_dog(char *name, float age, char *owner)
 	(*snoopie).owner = new_owner;
 
 	return (snoopie);
-}	
+}
