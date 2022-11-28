@@ -21,7 +21,6 @@ listint_t *reverse_listint(listint_t **head)
 		prev = *head;
 		*head = nextt;
 	}
-	
 	*head = prev;
 	return (*head);
 }
