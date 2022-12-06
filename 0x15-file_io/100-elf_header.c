@@ -215,7 +215,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 	case ET_CORE:
 		printf("CORE (Core file)\n");
 		break
-	default:
+        default:
 			printf("<unknown: %x>\n", e_type);
 	}
 }
@@ -270,7 +270,7 @@ void close_elf(int elf)
  * Description: If the file is not an ELF File or
  *              the function fails - exit code 98.
  */
- int main(int __attribute__((__unused__)) argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	Elf64_Ehdr *header;
 	int o, r;
